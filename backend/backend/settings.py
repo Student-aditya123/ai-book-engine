@@ -19,6 +19,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
+# import os
+# import django
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
+# django.setup()
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-_694b2ftq6+tjv+io8=gssraoowt7^b$au%enl08w958e@r&)h'
 
