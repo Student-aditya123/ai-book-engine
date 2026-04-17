@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Ask from "./pages/Ask";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Home />
+      <Ask />
     </div>
   );
 }
-
 export default App;
+
+
+// import React from "react";
+// import Navbar from "./components/Navbar";
+// import Home from "./pages/Home";
+// import Ask from "./pages/Ask";
+
+// function App() {
+//   return (
+//     <div>
+//       {/* Navbar */}
+//       <div className="bg-gray-900 text-white p-4 flex justify-between">
+//         <h1 className="font-bold">📚 AI Book Engine</h1>
+//         <div>
+//           <span className="mr-4">Home</span>
+//           <span>Ask AI</span>
+//         </div>
+//       </div>
+
+//       {/* Pages */}
+//       <Home />
+//       <Ask />
+//     </div>
+//   );
+// }
+
+// export default App;
